@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body { font-family: "Open Sans", sans-serif; }
+
+.watch { height: 350px; width: 350px; border-radius: 50%; border: 10px solid #f67280; background-color: #f8b195; margin: 130px auto; font-size: 80px; color: #6c5b7b; position: relative; text-align: center; }
+
+nav { font-size: 30px; text-align: center; margin-top: 180px; position: absolute; left: 90px; }
+
+.stopwatch { margin-top: 130px; }
+
+a { text-decoration: none; text-transform: uppercase; padding: 10px 250px; color: #355c7d; }
+
+a:hover { color: #c06c84; font-weight: bold; }

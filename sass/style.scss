@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$clock-border: #f67280;
+$clock-background: #f8b195;
+$clock-color: #6c5b7b;
+$a-color: #355c7d;
+$a-hover-color: #c06c84;
+$stopwatch-font: 'Open Sans', sans-serif;
+
+body {
+    font-family: $stopwatch-font;
+}
+.watch {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid $clock-border;
+    background-color: $clock-background;
+    margin: 130px auto;
+    font-size: 80px;
+    color: $clock-color;
+    position: relative;
+    text-align: center;
+}
+
+nav {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 180px;
+    position: absolute;
+    left: 90px;
+}
+
+.stopwatch {
+    margin-top: 130px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 250px;
+    color: $a-color;
+}
+
+a:hover {
+    color: $a-hover-color;
+    font-weight: bold;
+}
