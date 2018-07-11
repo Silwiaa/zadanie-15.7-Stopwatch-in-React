@@ -94,5 +94,5 @@ function pad0(value){
     return result;
 }
 
-const element = React.createElement(StopWatch);
+const element = React.createElement(Stopwatch);
 ReactDOM.render(element, document.getElementById('App'));
