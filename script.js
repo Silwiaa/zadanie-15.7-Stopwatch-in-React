@@ -1,5 +1,5 @@
 // STOPWATCH CLASS
-class Stopwatch extends React.Component{
+class StopWatch extends React.Component {
     constructor(props){
         super (props);
         this.state = {
@@ -94,5 +94,5 @@ function pad0(value){
     return result;
 }
 
-const element = React.createElement(Stopwatch);
+var element = React.createElement(StopWatch);
 ReactDOM.render(element, document.getElementById('App'));
