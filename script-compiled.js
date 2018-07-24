@@ -91,7 +91,7 @@ var StopWatch = function (_React$Component) {
                 this.state.times.minutes += 1;
                 this.state.times.seconds = 0;
             }
-            setState({
+            this.setState({
                 times: this.state.times
             });
         }
